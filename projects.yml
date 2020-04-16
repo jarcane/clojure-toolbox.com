@@ -22,6 +22,12 @@ aero:
   categories: [Configuration]
   platforms: [clj]
 
+artemis:
+  name: Artemis
+  url: https://github.com/workframers/artemis
+  categories: [GraphQL]
+  platforms: [cljs]
+
 leiningen:
   name: Leiningen
   url: https://github.com/technomancy/leiningen
@@ -142,9 +148,21 @@ re_frame:
   categories: [Web Frameworks, React Frameworks]
   platforms: [cljs]
 
+tuck:
+  name: tuck
+  url: https://github.com/tatut/tuck
+  categories: [Web Frameworks, React Frameworks]
+  platforms: [cljs]
+
 keechma:
   name: Keechma
   url: https://github.com/keechma/keechma
+  categories: [Web Frameworks, React Frameworks]
+  platforms: [cljs]
+
+kee_frame:
+  name: kee-frame
+  url: https://github.com/ingesolvoll/kee-frame
   categories: [Web Frameworks, React Frameworks]
   platforms: [cljs]
 
@@ -159,6 +177,12 @@ shrubbery:
   url: https://github.com/bguthrie/shrubbery
   categories: [Unit Testing, Mocking]
   platforms: [clj]
+
+spy:
+  name: Spy
+  url: https://github.com/alexanderjamesking/spy
+  categories: [Unit Testing, Mocking]
+  platforms: [clj, cljs]
 
 talltale:
   name: Talltale
@@ -244,6 +268,18 @@ bolth:
   categories: [Unit Testing, Test Runners]
   platforms: [clj]
 
+kaocha:
+  name: Kaocha
+  url: https://github.com/lambdaisland/kaocha
+  categories: [Test Runners]
+  platforms: [clj]
+
+kaocha_cljs:
+  name: Kaocha-cljs
+  url: https://github.com/lambdaisland/kaocha-cljs
+  categories: [Test Runners]
+  platforms: [cljs]
+
 speclj:
   name: Speclj
   url: http://speclj.com
@@ -259,12 +295,6 @@ ring:
 clj_http:
   name: clj-http
   url: https://github.com/dakrone/clj-http
-  categories: [HTTP Clients]
-  platforms: [clj]
-
-clj_http_lite:
-  name: clj-http-lite
-  url: https://github.com/hiredman/clj-http-lite
   categories: [HTTP Clients]
   platforms: [clj]
 
@@ -285,6 +315,12 @@ httpurr:
   url: https://github.com/funcool/httpurr
   categories: [HTTP Clients]
   platforms: [cljs]
+
+hato:
+  name: hato
+  url: https://github.com/gnarroway/hato
+  categories: [HTTP Clients]
+  platforms: [clj]
 
 ring_httpcore_adapter:
   name: ring-httpcore-adapter
@@ -382,12 +418,6 @@ aleph:
   categories: [Asynchronous HTTP]
   platforms: [clj]
 
-jet:
-  name: jet
-  url: https://github.com/mpenet/jet
-  categories: [Asynchronous HTTP, HTTP Servers, HTTP Clients]
-  platforms: [clj]
-
 http_kit:
   name: http-kit
   url: http://http-kit.org/
@@ -475,6 +505,18 @@ vlad:
 marginalia:
   name: Marginalia
   url: https://github.com/fogus/marginalia
+  categories: [Documentation Tools]
+  platforms: [clj, cljs]
+
+sidenotes:
+  name: Sidenotes
+  url: https://github.com/captain-porcelain/sidenotes
+  categories: [Documentation Tools]
+  platforms: [clj, cljs]
+
+cljdoc:
+  name: cljdoc
+  url: https://github.com/cljdoc/cljdoc
   categories: [Documentation Tools]
   platforms: [clj, cljs]
 
@@ -838,6 +880,24 @@ clojure_joda_time:
   categories: [Date and Time]
   platforms: [clj]
 
+tick:
+  name: tick
+  url: https://github.com/juxt/tick
+  categories: [Date and Time]
+  platforms: [clj, cljs]
+
+cljc_java_time:
+  name: cljc.java-time
+  url: https://github.com/henryw374/cljc.java-time
+  categories: [Date and Time]
+  platforms: [clj, cljs]
+
+time_literals:
+  name: time-literals
+  url: https://github.com/henryw374/time-literals
+  categories: [Date and Time]
+  platforms: [clj, cljs]
+
 borneo:
   name: borneo
   url: https://github.com/wagjo/borneo
@@ -1042,6 +1102,12 @@ tools_logging:
   categories: [Logging]
   platforms: [clj]
 
+cambium:
+  name: Cambium
+  url: https://cambium-clojure.github.io/
+  categories: [Logging]
+  platforms: [clj, cljs]
+
 ring_logger:
   name: Ring-logger
   url: https://github.com/nberger/ring-logger
@@ -1126,6 +1192,12 @@ octet:
   categories: [Binary Data, Parsing]
   platforms: [clj, cljs]
 
+binary:
+  name: Binary
+  url: https://github.com/smee/binary
+  categories: [Binary Data, Parsing]
+  platforms: [clj]
+
 core_logic:
   name: core.logic
   url: https://github.com/clojure/core.logic
@@ -1165,12 +1237,6 @@ ragtime:
 joplin:
   name: Joplin
   url: https://github.com/juxt/joplin
-  categories: [Database Migrations]
-  platforms: [clj]
-
-clj_sql_up:
-  name: clj-sql-up
-  url: https://github.com/ckuttruff/clj-sql-up
   categories: [Database Migrations]
   platforms: [clj]
 
@@ -1543,7 +1609,7 @@ yada:
 compojure_api:
   name: Compojure-api
   url: https://github.com/metosin/compojure-api
-  categories: [RESTful Web Services]
+  categories: [RESTful Web Services, Web Frameworks]
   platforms: [clj]
 
 bishop:
@@ -1677,6 +1743,12 @@ tools_namespace:
   url: https://github.com/clojure/tools.namespace
   categories: [Namespace Utilities]
   platforms: [clj]
+
+namespacefy:
+  name: namespacefy
+  url: https://github.com/Jarzka/namespacefy
+  categories: [Namespace Utilities]
+  platforms: [clj, cljs]
 
 bultitude:
   name: Bultitude
@@ -1869,6 +1941,12 @@ garden:
   url: https://github.com/noprompt/garden
   categories: [CSS Generation]
   platforms: [clj]
+
+stylefy:
+  name: stylefy
+  url: https://github.com/jarzka/stylefy
+  categories: [CSS Generation]
+  platforms: [cljs]
 
 instaparse:
   name: Instaparse
@@ -2067,6 +2145,12 @@ honey_sql:
   url: https://github.com/jkk/honeysql
   categories: [SQL Abstraction]
   platforms: [clj]
+
+specql:
+  name: specql
+  url: https://github.com/tatut/specql
+  categories: [SQL Abstraction]
+  platforms: [clj, cljs]
 
 carmine:
   name: Carmine
@@ -2704,12 +2788,6 @@ madness:
   categories: [Static Site Generation]
   platforms: [clj]
 
-ecstatic:
-  name: Ecstatic
-  url: https://github.com/samrat/ecstatic
-  categories: [Static Site Generation]
-  platforms: [clj]
-
 incise:
   name: Incise
   url: https://github.com/RyanMcG/incise
@@ -2758,12 +2836,6 @@ datomic_schema:
   categories: [Datomic]
   platforms: [clj]
 
-adi:
-  name: adi
-  url: https://github.com/zcaudate/adi
-  categories: [Datomic]
-  platforms: [clj]
-
 molecule:
   name: molecule
   url: https://github.com/petergarbers/molecule
@@ -2773,8 +2845,17 @@ molecule:
 tupelo:
   name: Tupelo
   url: https://github.com/cloojure/tupelo
-  categories: [Misc. Functions, Datomic]
-  platforms: [clj]
+  categories:
+    - Data Transformation
+    - Date and Time
+    - Datomic
+    - Misc. Functions
+    - Unit Testing
+    - HTML Parsers
+    - JSON Parsers
+    - YAML Parsers
+    - XML Parsers
+  platforms: [clj, cljs]
 
 datomock:
   name: datomock
@@ -2809,6 +2890,24 @@ clj_template:
 eastwood:
   name: Eastwood
   url: https://github.com/jonase/eastwood
+  categories: [Code Analysis, Leiningen Plugins]
+  platforms: [clj]
+
+bikeshed:
+  name: Bikeshed
+  url: https://github.com/dakrone/lein-bikeshed
+  categories: [Code Analysis, Leiningen Plugins]
+  platforms: [clj]
+
+lein_docstring_checker:
+  name: lein-docstring-checker
+  url: https://github.com/camsaul/lein-docstring-checker
+  categories: [Code Analysis, Leiningen Plugins]
+  platforms: [clj]
+
+lein_check_namespace_decls:
+  name: lein-check-namespace-decls
+  url: https://github.com/camsaul/lein-check-namespace-decls
   categories: [Code Analysis, Leiningen Plugins]
   platforms: [clj]
 
@@ -2908,6 +3007,12 @@ swindon:
   categories: [Compression]
   platforms: [clj]
 
+clj_compress:
+  name: clj-compress
+  url: https://github.com/mikeananev/clj-compress
+  categories: [Compression]
+  platforms: [clj]
+
 lein_jslint:
   name: lein-jslint
   url: https://github.com/vbauer/lein-jslint
@@ -2949,6 +3054,12 @@ play_cljs:
   url: https://github.com/oakes/play-cljs
   categories: [Game Development]
   platforms: [cljs]
+
+play_cljc:
+  name: play-cljc
+  url: https://github.com/oakes/play-cljc
+  categories: [Game Development]
+  platforms: [clj, cljs]
 
 clecs:
   name: clecs
@@ -3100,6 +3211,12 @@ hikari_cp:
   categories: [Connection Pools]
   platforms: [clj]
 
+metabase_connection_pool:
+  name: metabase/connection-pool
+  url: https://github.com/metabase/connection-pool
+  categories: [Connection Pools]
+  platforms: [clj]
+
 duckling:
   name: Duckling
   url: https://github.com/wit-ai/duckling
@@ -3183,6 +3300,12 @@ brutha:
   url: https://github.com/weavejester/brutha
   categories: [React Interfaces]
   platforms: [cljs]
+
+cljsx:
+  name: CLJSX
+  url: https://github.com/peterhudec/cljsx
+  categories: [React Interfaces, React DOM]
+  platforms: [clj, cljs]
 
 rum:
   name: Rum
@@ -3496,6 +3619,12 @@ mount_lite:
   categories: [Application Frameworks]
   platforms: [clj]
 
+systemic:
+  name: systemic
+  url: https://github.com/teknql/systemic
+  categories: [Application Frameworks]
+  platforms: [clj]
+
 skyscraper:
   name: Skyscraper
   url: https://github.com/nathell/skyscraper
@@ -3544,6 +3673,12 @@ dec:
   categories: [Configuration]
   platforms: [clj]
 
+oneconfig:
+  name: 1Config
+  url: https://github.com/BrunoBonacci/1config
+  categories: [Configuration]
+  platforms: [clj]
+
 yetibot:
   name: Yetibot
   url: https://github.com/devth/yetibot
@@ -3561,6 +3696,12 @@ loom:
   url: https://github.com/aysylu/loom
   categories: [Data Structures, Graphs]
   platforms: [clj]
+
+pathom:
+  name: Pathom
+  url: https://github.com/wilkerlucio/pathom/
+  categories: [Graphs]
+  platforms: [clj,cljs]
 
 ubergraph:
   name: Ubergraph
@@ -3601,6 +3742,18 @@ money:
 franzy:
   name: Franzy
   url: https://github.com/ymilky/franzy
+  categories: [Kafka Clients]
+  platforms: [clj]
+
+jackdaw:
+  name: Jackdaw
+  url: https://github.com/FundingCircle/jackdaw/
+  categories: [Kafka Clients]
+  platforms: [clj]
+
+kafka_clj:
+  name: kafka.clj
+  url: https://github.com/dvlopt/kafka.clj
   categories: [Kafka Clients]
   platforms: [clj]
 
@@ -3655,7 +3808,13 @@ sweet_liberty:
 cljs_oops:
   name: cljs-oops
   url: https://github.com/binaryage/cljs-oops
-  categories: [ClojureScript Development, Syntax Extensions]
+  categories: [ClojureScript Development, Syntax Extensions, Javascript Interop]
+  platforms: [cljs]
+
+js_interop:
+  name: js-interop
+  url: https://github.com/appliedsciencestudio/js-interop
+  categories: [ClojureScript Development, Syntax Extensions, Javascript Interop]
   platforms: [cljs]
 
 graphql_clj:
@@ -3680,6 +3839,12 @@ lacinia_pedestal:
   name: lacinia-pedestal
   url: Application Frameworks
   categories: [GraphQL, Asynchronous HTTP]
+  platforms: [clj]
+
+leona:
+  name: Leona
+  url: https://github.com/WorksHub/leona
+  categories: [GraphQL]
   platforms: [clj]
 
 omniconf:
@@ -3946,6 +4111,12 @@ alda:
   categories: [Music &amp; Sound Synthesis]
   platforms: [clj]
 
+edna:
+  name: edna
+  url: https://github.com/oakes/edna
+  categories: [Music &amp; Sound Synthesis]
+  platforms: [clj, cljs]
+
 mantra:
   name: mantra
   url: https://github.com/daveyarwood/mantra
@@ -4047,3 +4218,363 @@ vura:
   url: https://github.com/gersak/vura
   categories: [Date and Time]
   platforms: [clj, cljs]
+
+clojurice:
+  name: clojurice
+  url: https://github.com/jarcane/clojurice
+  categories: [Web Frameworks, Project Templates]
+  platforms: [clj, cljs]
+
+missionary:
+  name: missionary
+  url: https://github.com/leonoel/missionary
+  categories: [Asynchronous Programming]
+  platforms: [clj, cljs]
+
+spec_alpha:
+  name: spec.alpha
+  url: https://github.com/clojure/spec.alpha
+  categories: [Spec, Schema, Dynamic Typing]
+  platforms: [clj, cljs]
+
+spec_coerce:
+  name: spec-coerce
+  url: https://github.com/wilkerlucio/spec-coerce
+  categories: [Spec, Data Coercion]
+  platforms: [clj, cljs]
+
+clojure_future_spec:
+  name: clojure-future-spec
+  url: https://github.com/tonsky/clojure-future-spec
+  categories: [Spec]
+  platforms: [clj]
+
+expound:
+  name: Expound
+  url: https://github.com/bhb/expound
+  categories: [Spec]
+  platforms: [clj, cljs]
+
+orchestra:
+  name: Orchestra
+  url: https://github.com/jeaye/orchestra
+  categories: [Spec]
+  platforms: [clj, cljs]
+
+spectrum:
+  name: Spectrum
+  url: https://github.com/arohner/spectrum
+  categories: [Spec, Static Typing]
+  platforms: [clj]
+
+reitit:
+  name: Reitit
+  url: https://github.com/metosin/reitit
+  categories: [HTTP Routing, Web Frameworks, RESTful Web Services, Asynchronous HTTP]
+  platforms: [clj, cljs]
+
+clj_memory_meter:
+  name: clj-memory-meter
+  url: https://github.com/clojure-goes-fast/clj-memory-meter
+  categories: [Performance, Benchmarking]
+  platforms: [clj]
+
+specviz:
+  name: specviz
+  url: https://github.com/jebberjeb/specviz
+  categories: [Spec, Visualization]
+  platforms: [clj]
+
+clucie:
+  name: Clucie
+  url: https://github.com/federkasten/clucie
+  categories: [Text Search]
+  platforms: [clj]
+
+otarta:
+  name: Otarta
+  url: https://gitlab.com/eval/otarta
+  categories: [Message Queues, MQTT]
+  platforms: [cljs]
+
+satakieli:
+  name: Satakieli
+  url: https://github.com/Vincit/satakieli
+  categories: [Internationalization]
+  platforms: [clj, cljs]
+
+fulcro:
+  name: Fulcro
+  url: https://github.com/fulcrologic/fulcro
+  categories: [Web Frameworks, React Frameworks]
+  platforms: [clj, cljs]
+
+metav:
+  name: Metav
+  url: https://github.com/jgrodziski/metav
+  categories: [tools.deps]
+  platforms: [clj]
+
+depstar:
+  name: Depstar
+  url: https://github.com/healthfinch/depstar
+  categories: [tools.deps]
+  platforms: [clj]
+
+cambada:
+  name: Cambada
+  url: https://github.com/luchiniatwork/cambada
+  categories: [tools.deps]
+  platforms: [clj]
+
+pack_alpha:
+  name: Pack
+  url: https://github.com/juxt/pack.alpha
+  categories: [tools.deps]
+  platforms: [clj]
+
+lein-tools_deps:
+  name: lein-tools-deps
+  url: https://github.com/RickMoynihan/lein-tools-deps
+  categories: [tools.deps]
+  platforms: [clj]
+
+clj_new:
+  name: clj-new
+  url: https://github.com/seancorfield/clj-new
+  categories: [tools.deps]
+  platforms: [clj]
+
+dot_clojure_deps_edn:
+  name: dot-clojure-deps.edn
+  url: https://github.com/seancorfield/dot-clojure
+  categories: [tools.deps]
+  platforms: [clj]
+
+depot:
+  name: Depot
+  url: https://github.com/Olical/depot
+  categories: [tools.deps]
+  platforms: [clj]
+
+scenari:
+  name: Scenari
+  url: https://github.com/jgrodziski/scenari
+  categories: [Unit Testing]
+  platforms: [clj]
+
+injure:
+  name: injure
+  url: https://github.com/leonoel/injure
+  categories: [Dependency Injection]
+  platforms: [clj, cljs]
+
+herb:
+  name: herb
+  url: https://github.com/roosta/herb
+  categories: [CSS Generation]
+  platforms: [clj, cljs]
+
+arachne:
+  name: Arachne
+  url: https://github.com/arachne-framework/arachne-core
+  categories: [Web Frameworks]
+  platforms: [clj]
+
+cortex:
+  name: Cortex
+  url: https://github.com/originrose/cortex
+  categories: [Machine Learning]
+  platforms: [clj]
+
+flare:
+  name: Flare
+  url: https://github.com/aria42/flare
+  categories: [Machine Learning]
+  platforms: [clj]
+
+dl4clj:
+  name: Dl4clj
+  url: https://github.com/yetanalytics/dl4clj
+  categories: [Machine Learning]
+  platforms: [clj]
+
+coast:
+  name: Coast
+  url: https://github.com/coast-framework/coast
+  categories: [Web Frameworks]
+  platforms: [clj]
+
+jsonista:
+  name: Jsonista
+  url: https://github.com/metosin/jsonista
+  categories: [JSON Parsers]
+  platforms: [clj]
+
+spec_tools:
+  name: Spec-Tools
+  url: https://github.com/metosin/spec-tools
+  categories: [Spec]
+  platforms: [clj, cljs]
+
+schema_tools:
+  name: Schema-Tools
+  url: https://github.com/metosin/schema-tools
+  categories: [Schema]
+  platforms: [clj, cljs]
+
+schema_viz:
+  name: Schema-Viz
+  url: https://github.com/metosin/schema-viz
+  categories: [Schema]
+  platforms: [clj]
+
+meander:
+  name: Meander
+  url: https://github.com/noprompt/meander
+  categories: [Data Transformation]
+  platforms: [clj, cljs]
+
+supdate:
+  name: Supdate
+  url: https://github.com/vvvvalvalval/supdate
+  categories: [Data Transformation]
+  platforms: [clj, cljs]
+
+clojurephant:
+  name: clojurephant
+  url: https://github.com/clojurephant/clojurephant
+  categories: [Build Tools]
+  platforms: [clj, cljs]
+
+clj_async_profiler:
+  name: clj-async-profiler
+  url: https://github.com/clojure-goes-fast/clj-async-profiler
+  categories: [Performance]
+  platforms: [clj]
+
+stencil_core:
+  name: Stencil Core
+  url: https://github.com/erdos/stencil
+  categories: [MS Office Documents]
+  platforms: [clj]
+
+clj_kondo:
+  name: clj-kondo
+  url: https://github.com/borkdude/clj-kondo
+  categories: [Code Analysis]
+  platforms: [clj, cljs]
+
+reduce_fsm:
+  name: reduce-fsm
+  url: https://github.com/cdorrat/reduce-fsm
+  categories: [State Machines]
+  platforms: [clj]
+
+tilakone:
+  name: tilakone
+  url: https://github.com/metosin/tilakone
+  categories: [State Machines]
+  platforms: [clj, cljs]
+
+oz:
+  name: Oz
+  url: https://github.com/metasoarous/oz
+  categories: [Data Exploration, Visualization, Static Site Generation]
+  platforms: [clj, cljs]
+
+caesium:
+  name: caesium
+  url: https://github.com/lvh/caesium
+  categories: [Cryptography]
+  platforms: [clj]
+
+clope:
+  name: clope
+  url: https://github.com/leonoel/clope
+  categories: [Data Structures]
+  platforms: [clj, cljs]
+
+ash_ra_template:
+  name: Ash Ra Template (ART)
+  url: https://github.com/vivid-inc/ash-ra-template
+  categories: [Template Languages]
+  platforms: [clj]
+
+shadow_cljs:
+  name: shadow-cljs
+  url: https://shadow-cljs.org
+  categories: [ClojureScript Development]
+  platforms: [cljs]
+
+datasplash:
+  name: Datasplash
+  url: https://github.com/ngrunwald/datasplash
+  categories: [Google Dataflow]
+  platforms: [clj]
+
+missing:
+  name: Missing
+  url: https://github.com/vodori/missing
+  categories: [Misc. Functions]
+  platforms: [clj]
+
+postmortem:
+  name: Postmortem
+  url: https://github.com/athos/postmortem
+  categories: [Debugging]
+  platforms: [clj, cljs]
+  
+firestore_clj:
+  name: firestore-clj
+  url: https://github.com/polvotech/firestore-clj
+  categories: [Databases]
+  platforms: [clj]
+
+compound:
+  name: compound
+  url: https://github.com/riverford/compound
+  categories: [Databases]
+  platforms: [clj, cljs]
+
+pdfboxing:
+  name: pdfboxing
+  url: https://github.com/dotemacs/pdfboxing
+  categories: [PDF Manipulation]
+  platforms: [clj]
+
+phlegyas:
+  name: phlegyas
+  url: https://github.com/dspearson/phlegyas
+  categories: [Filesystems]
+  platforms: [clj]
+
+patika:
+  name: patika
+  url: https://github.com/ertugrulcetin/patika
+  categories: [HTTP Routing]
+  platforms: [clj]
+
+membrane:
+  name: Membrane
+  url: https://github.com/phronmophobic/membrane
+  categories: [GUIs]
+  platforms: [clj, cljs]
+
+haslett:
+  name: Haslett
+  url: https://github.com/weavejester/haslett
+  categories: [Websockets]
+  platforms: [cljs]
+
+calva:
+  name: Calva
+  url: https://github.com/BetterThanTomorrow/calva
+  categories: [IDE Integration]
+  platforms: [clj, cljs]
+
+vivid_clojure_maven_plugin:
+  name: Vivid Clojure Maven Plugin
+  url: https://github.com/vivid-inc/clojure-maven-plugin
+  categories: [Build Tools, Maven Integration]
+  platforms: [clj]
